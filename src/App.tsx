@@ -13,7 +13,7 @@ function App() {
   return (
     <div className='App'>
       <Router>
-        <Routes>
+      <Routes>
           <Route path='/' element={<PrivateRoute authed={user ? true : false} />}>
             <Route path='/' element={<Navigate to='/home/page1' />} />
             <Route path='/home/*' element={<Home />} />
