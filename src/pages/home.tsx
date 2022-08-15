@@ -27,7 +27,7 @@ export const Home = () => {
         >
           <Menu.Item key='/home/page1' icon={<PieChartOutlined />}>
             <Link to='page1'>
-              <span>页面11</span>
+              <span>页面1</span>
             </Link>
           </Menu.Item>
           <Menu.Item key='/home/page2' icon={<PieChartOutlined />}>
